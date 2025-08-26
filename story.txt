@@ -38,3 +38,7 @@ sumit kumar
 | ----------------------------- | ---------------------- |
 | `git remote -v`               | Show connected remotes |
 | `git remote add origin <url>` | Add a remote repo      |
+
+
+Sumit kumar .
+ankit kumar .
