@@ -1,0 +1,40 @@
+sumit kumar
+| Command                | Description                                                      |
+| ---------------------- | ---------------------------------------------------------------- |
+| `git status`           | Show current status of the repo (changes, untracked files, etc.) |
+| `git add <file>`       | Stage a file for the next commit                                 |
+| `git add .`            | Stage **all** modified/untracked files                           |
+| `git commit -m "msg"`  | Commit staged changes with a message                             |
+| `git commit -am "msg"` | Add **and** commit modified tracked files (skips untracked)      |
+| `git log`              | View commit history                                              |
+| `git diff`             | See unstaged changes                                             |
+| `git diff --staged`    | See staged (to-be-committed) changes                             |
+| `git show <commit>`    | Show details of a specific commit                                |
+
+| Command           | Description                             |
+| ----------------- | --------------------------------------- |
+| `git init`        | Create a new Git repository             |
+| `git clone <url>` | Copy an existing repo (local or remote) |
+
+| Command                  | Description                                          |
+| ------------------------ | ---------------------------------------------------- |
+| `git branch`             | List all branches                                    |
+| `git branch <name>`      | Create a new branch                                  |
+| `git checkout <branch>`  | Switch to a branch                                   |
+| `git switch <branch>`    | Alternative to `checkout` (recommended in newer Git) |
+| `git merge <branch>`     | Merge another branch into current                    |
+| `git rebase <branch>`    | Reapply commits on top of another base branch        |
+| `git branch -d <branch>` | Delete a branch                                      |
+
+| Command                       | Description                                                   |
+| ----------------------------- | ------------------------------------------------------------- |
+| `git restore <file>`          | Undo changes to a file (working directory)                    |
+| `git restore --staged <file>` | Unstage a file (keep changes)                                 |
+| `git reset`                   | Unstage everything (but keep changes)                         |
+| `git reset --hard`            | Discard all local changes (⚠️ dangerous!)                     |
+| `git revert <commit>`         | Create a new commit that undoes the effects of a previous one |
+
+| Command                       | Description            |
+| ----------------------------- | ---------------------- |
+| `git remote -v`               | Show connected remotes |
+| `git remote add origin <url>` | Add a remote repo      |
